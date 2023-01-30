@@ -11,11 +11,11 @@ const Hero = () => {
           Grow with data.
         </h1>
         <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold">
+          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             fast, flexible financing for
           </p>
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold pl-2"
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
             strings={["BTB", "BTC", "SASS"]}
             typeSpeed={120}
             backSpeed={140}
@@ -26,6 +26,9 @@ const Hero = () => {
           Monitor your data analytics to increase revenue for BTB, BTC, & SASS
           platforms.
         </p>
+        <button className="bg-[#00df9a] text-black w-[200px] rounded-md font-medium my-6 py-3 mx-auto">
+          Get Started
+        </button>
       </div>
     </div>
   );
